@@ -1,4 +1,5 @@
 import { ActivatedRoute, Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MatDialog } from '@angular/material/dialog';
@@ -34,7 +35,7 @@ describe('PublicWebsiteComponent', () => {
 
     TestBed.configureTestingModule({
       declarations: [PublicWebsiteComponent],
-      imports: [RouterLink, RouterLinkActive, RouterOutlet],
+      imports: [RouterLink, RouterLinkActive, RouterOutlet, RouterTestingModule],
       providers: [
         { provide: ActivatedRoute, useValue: fakeActivatedRoute },
         { provide: MatDialog, useValue: matDialogSpy },
@@ -52,7 +53,7 @@ describe('PublicWebsiteComponent', () => {
 
   it('should show call to action when index page is active', () => {
     let indexNav = new NavigationEnd(1, '/', '/');
-    TestBed.get(Router).events.next(indexNav);
+    TestBed.inject(Router).events.next(indexNav);
     expect(component.showCallToAction).toBeTrue();
   });
 
