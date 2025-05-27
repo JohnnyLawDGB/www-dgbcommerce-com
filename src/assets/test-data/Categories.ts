@@ -10,7 +10,7 @@ export const TestDataCategories: Category[] = [
         Visible: true
     },
     {
-        Id: '00000000-0000-0000-0000-000000000001',
+        Id: '00000000-0000-0000-0000-000000000002',
         ShopId: TestDataShops[0].Id,
         Name: 'Test category 2',
         Visible: true
