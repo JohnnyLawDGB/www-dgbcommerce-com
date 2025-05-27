@@ -25,6 +25,10 @@ Run `npm run lint` to analyze the code with ESLint and Angular's lint builder.
 ## Running end-to-end tests
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+=======
+
 ## Linting and formatting
 
 There are currently no linting or formatting npm scripts defined.
@@ -32,3 +36,4 @@ There are currently no linting or formatting npm scripts defined.
 ## Contributing
 
 Contributions are welcome. Feel free to open an issue or submit a pull request if you have improvements or questions.
+
