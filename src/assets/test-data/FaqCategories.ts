@@ -6,7 +6,7 @@ export const TestDataFaqCategories: FaqCategory[] = [
         Name: 'Test category 1'
     },
     {
-        Id: '00000000-0000-0000-0000-000000000011',
+        Id: '00000000-0000-0000-0000-000000000012',
         Name: 'Test category 2'
     }
 ];
