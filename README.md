@@ -10,5 +10,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Linting
+Run `npm run lint` to analyze the code with ESLint and Angular's lint builder.
+
 ## Running end-to-end tests
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
